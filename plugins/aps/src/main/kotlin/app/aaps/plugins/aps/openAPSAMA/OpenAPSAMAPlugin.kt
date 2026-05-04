@@ -33,6 +33,7 @@ import app.aaps.core.interfaces.utils.HardLimits
 import app.aaps.core.interfaces.utils.Round
 import app.aaps.core.keys.BooleanKey
 import app.aaps.core.keys.DoubleKey
+import app.aaps.core.keys.interfaces.NonPreferenceKey
 import app.aaps.core.keys.interfaces.Preferences
 import app.aaps.core.objects.constraints.ConstraintObject
 import app.aaps.core.objects.extensions.convertedToAbsolute
@@ -311,6 +312,10 @@ class OpenAPSAMAPlugin @Inject constructor(
     }
 
     // Needed only for dynamic ISF so far
+    override val syncedKeys: List<NonPreferenceKey> = emptyList()
+
+    override fun reloadInternalState() {}
+
     override fun configuration(): JsonObject = JsonObject(emptyMap())
     override fun applyConfiguration(configuration: JsonObject) {}
 
