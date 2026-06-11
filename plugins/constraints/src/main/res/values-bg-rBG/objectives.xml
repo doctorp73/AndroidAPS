@@ -70,4 +70,5 @@
     <string name="failedretrievetime">Не може да се вземе времето</string>
     <string name="requirementnotmet">Задачите не са изпълнени</string>
     <string name="what_i_ve_learned">Какво научих:</string>
+    <string name="objectives_show_hint">Подсказка</string>
 </resources>
