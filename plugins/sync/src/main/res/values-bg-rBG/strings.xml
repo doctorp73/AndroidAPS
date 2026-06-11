@@ -46,7 +46,11 @@
     <string name="xdrip_local_broadcasts_title">Активиране на предаване на данни към xDrip+.</string>
     <!--    DataBroadcast-->
     <!-- GarminPlugin -->
+    <string name="garmin_description">Свързване с Garmin часовник (Fenix, Edge, …)</string>
+    <string name="garmin_local_http_server_port">Local HTTP server port</string>
+    <string name="garmin_local_http_server">Local HTTP server</string>
     <!--    Wear-->
+    <string name="wear_shortname">WEAR</string>
     <string name="description_wear">Наблюдавайте и контролирайте AndroidAPS, от вашия WearOS часовник.</string>
     <string name="no_watch_connected">(Няма активна връзка)</string>
     <string name="pump_status">Статус на помпата</string>
