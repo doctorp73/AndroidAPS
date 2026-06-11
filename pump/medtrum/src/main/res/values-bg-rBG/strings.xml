@@ -5,11 +5,13 @@
     <string name="medtrum_pump_shortname">MT</string>
     <string name="medtrum_pump_setting">Настройки за помпа Medtrum</string>
     <string name="pump_error">Грешка в помпа: %1$s !! </string>
+    <string name="pump_warning">Предупреждение от помпата: %1$s </string>
     <string name="pump_is_suspended">Помпата е спряна</string>
     <string name="pump_is_suspended_hour_max">Помпата е спряна поради превишено максимално количество инсулин за час</string>
     <string name="pump_is_suspended_day_max">Помпата е спряна поради превишено максимално количество инсулин за ден</string>
     <string name="patch_not_active">Пач помпата не е активирана</string>
     <string name="pump_setting_failed">Неуспешно зареждане на потребителските настройки в помпата!</string>
+    <string name="pump_sync_error">Грешка при синхронизацията с историята на помпата. Някой записи са игнорирани. Проверете в Лечения дали болусите са правилни. Отложете и при нова такава грешла сменете базата на пач помпата.</string>
     <!-- overview fragment -->
     <string name="last_connection_label">Последно свързване</string>
     <string name="pump_state_label">Състояние на помпата</string>
