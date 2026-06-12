@@ -34,6 +34,8 @@
     <string name="event_type">Typ události</string>
     <string name="mgdl">mg/dL</string>
     <string name="mmol">mmol/L</string>
+    <string name="bg_mgdl">%1$d mg/dL</string>
+    <string name="bg_mmol">%1$.1f mmol/l</string>
     <string name="save">Uložit</string>
     <string name="skip">Přeskočit</string>
     <string name="switch_to_edit">Upravit</string>
@@ -66,6 +68,7 @@
     <string name="configbuilder_insulin">Inzulín</string>
     <string name="configbuilder_bgsource">Zdroj glykémie</string>
     <string name="configbuilder_smoothing">Vyhlazování</string>
+    <string name="configbuilder_calibration">Kalibrace</string>
     <string name="configbuilder_pump">Pumpa</string>
     <string name="configbuilder_sensitivity">Detekce citlivosti</string>
     <string name="configbuilder_aps">APS</string>
@@ -451,6 +454,8 @@
     <string name="location_front_left_lower_abdomen">Přední strana břicha vlevo dole</string>
     <string name="location_back_right_buttock">Pravá strana hýždí</string>
     <string name="location_back_left_buttock">Levá strana hýždí</string>
+    <string name="location_back_right_lower_back">Spodní strana vpravo</string>
+    <string name="location_back_left_lower_back">Spodní strana vlevo</string>
     <string name="location_side_right_upper_thigh">Vnější strana stehna vpravo nahoře</string>
     <string name="location_side_left_upper_thigh">Vnější strana stehna vlevo nahoře</string>
     <string name="location_side_right_lower_thigh">Vnější strana stehna vpravo dole</string>
@@ -533,6 +538,7 @@
     <string name="uel_tt_ns_refresh">OBNOVENÍ DOČASNÝCH CÍLŮ Z NS</string>
     <string name="uel_automation_removed">AUTOMATIZACE ODEBRÁNA</string>
     <string name="uel_bg_removed">GLYKÉMIE ODEBRÁNA</string>
+    <string name="uel_calibration_removed">AUTOMATIZACE ODEBRÁNA</string>
     <string name="uel_careportal_removed">CAREPORTAL ODEBRÁN</string>
     <string name="uel_bolus_removed">BOLUS ODSTRANĚN</string>
     <string name="uel_carbs_removed">SACHARIDY ODSTRANĚNY</string>
@@ -614,6 +620,9 @@
     <string name="missing_profile_name">Chybí název profilu</string>
     <string name="profile_not_saved_activate">Profil nebyl uložen. Před aktivací prosím uložte profil.</string>
     <string name="profile_activation_failed">Aktivace profilu selhala</string>
+    <string name="profile_switch_save_failed">Přepnutí profilu nelze uložit. Zkuste to prosím znovu.</string>
+    <string name="profile_basal_not_compatible_with_pump">Bazál není kompatibilní s aktuální pumpou a nemůže být aktivován. Snížte procenta nebo upravte bazální dávku.</string>
+    <string name="profile_pump_incompatible_label">Limit pumpy</string>
     <string name="error_in_ic_values">Chyba v hodnotách IC</string>
     <string name="error_in_isf_values">Chyba v hodnotách ISF</string>
     <string name="error_in_basal_values">Chyba v hodnotách bazálu</string>
@@ -827,6 +836,7 @@
     <string name="clear_cloud_action">Vymazat nastavení</string>
     <string name="clear_cloud_settings">Vymazat cloudová nastavení</string>
     <string name="clear_cloud_settings_message">Toto přepne na lokální úložiště a vymaže autorizaci. Pokračovat?</string>
+    <string name="cloud_revoke_incomplete">Nastavení cloudu bylo na tomto zařízení vymazáno, ale účet nemohl být nalezen pro úplné zrušení přístupu. Možná budete chtít odstranit ručně v nastavení účtu.</string>
     <string name="cloud_connection_failed">Připojení k cloudovému úložišti selhalo</string>
     <string name="cloud_reauthorize_message">Připojení k cloudovému úložišti selhalo. Chcete se znovu autentizovat?</string>
     <string name="reauthorize">Znovu autentizovat</string>
