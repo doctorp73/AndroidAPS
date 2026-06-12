@@ -31,6 +31,8 @@
     <string name="pref_title_alert_carbs_required">Upozornit, pokud jsou potřeba sacharidy</string>
     <string name="pref_title_alert_urgent_as_android_notification">Zobrazit naléhavé alarmy jako oznámení Androidu</string>
     <string name="pref_title_alert_increase_volume">Postupně zvyšovat hlasitost oznámení</string>
+    <string name="pref_title_alert_override_dnd">Přebít režim Nerušit</string>
+    <string name="pref_summary_alert_override_dnd">Pokud je povoleno, AAPS přehrává alarmy v tichém režimu a režimu Nerušit (nastavení pro budík). Pokud je vypnuto, alarmy jsou tiché/DND (nastavení pro oznámení).</string>
     <!-- BG Source preferences -->
     <string name="pref_title_bg_source_upload_to_ns">Nahrávat glykémie do NS</string>
     <string name="pref_title_bg_source_create_sensor_change">Zaznamenávat výměnu senzoru</string>
@@ -221,6 +223,8 @@
     <string name="pref_title_sms_remote_bolus_distance">Minimální vzdálenost vzdáleného bolusu</string>
     <!-- IntKey: BG Source preferences -->
     <string name="pref_title_random_bg_interval">Interval náhodné glykémie</string>
+    <string name="pref_title_random_bg_randomize">Náhodná data glykémie</string>
+    <string name="pref_summary_random_bg_randomize">Přidat šum, nepravdelnost, náhodné šipky trendu a náhodné sacharidy. Zakažte pro čistou deterministickou sinusovou vlnu se šipkou trendu odvozenou od sinusové křivky.</string>
     <!-- IntKey: NS Client preferences -->
     <string name="pref_title_alarm_stale_data">Práh alarmu zastaralých dat</string>
     <string name="pref_title_urgent_alarm_stale_data">Práh naléhavého alarmu zastaralých dat</string>
