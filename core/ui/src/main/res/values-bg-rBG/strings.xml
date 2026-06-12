@@ -691,7 +691,7 @@
     <string name="change">Промяна</string>
     <string name="grant">Разрешаване</string>
     <string name="set">Приложи</string>
-    <string name="wizard_set_alarm">Задай аларма</string>
+    <string name="wizard_set_alarm">Напомни ми</string>
     <string name="wizard_use_percentage">% от профила</string>
     <string name="wizard_include_bg">Включи КЗ</string>
     <string name="wizard_include_tt">Включи временна цел</string>
